@@ -1,0 +1,27 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="test:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/test_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="test" />
+          <element id="library" level="application" name="html5shiv" />
+          <element id="library" level="application" name="respond" />
+          <element id="library" level="application" name="jquery" />
+          <element id="library" level="application" name="bootstrap" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql-connector-java-8.0.19" />
+          <element id="library" level="project" name="tomcat-api" />
+          <element id="library" level="project" name="lib" />
+          <element id="library" level="project" name="jstl-1.2" />
+          <element id="library" level="project" name="druid-1.0.9" />
+          <element id="library" level="project" name="spring-jdbc-5.1.10.RELEASE" />
+          <element id="library" level="project" name="commons-logging-1.2" />
+          <element id="library" level="project" name="spring-core-5.1.10.RELEASE" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="test/web/Web" />
+    </root>
+  </artifact>
+</component>
